@@ -1,3 +1,7 @@
+# Notes
+- https://nuxt.com/docs/4.x/directory-structure/nuxt
+- https://nuxt.com/docs/4.x/api
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -75,6 +79,3 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 
-# Notes
-- https://nuxt.com/docs/4.x/directory-structure/nuxt
-- https://nuxt.com/docs/4.x/api
