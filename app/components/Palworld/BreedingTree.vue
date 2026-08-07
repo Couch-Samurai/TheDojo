@@ -124,7 +124,7 @@
 
 .tree h3 {
   font-size: 1.05rem;
-  color: var(--gold);
+  color: var(--ink);
   margin: 1.75rem 0 1rem;
   letter-spacing: 0.05em;
 }
@@ -155,7 +155,7 @@
   align-items: center;
   gap: 0.5rem 0.75rem;
   padding: 0.7rem 1rem;
-  background: rgba(26, 22, 20, 0.55);
+  background: rgba(121, 121, 121, 0.6);
   border: 1px solid rgba(212, 175, 55, 0.12);
   border-radius: var(--radius);
   font-size: 0.95rem;
@@ -171,7 +171,7 @@
 }
 
 .result {
-  color: var(--gold);
+  color: var(--ink);
   font-weight: 500;
 }
 

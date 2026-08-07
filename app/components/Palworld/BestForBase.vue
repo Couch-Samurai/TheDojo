@@ -113,7 +113,7 @@
 }
 
 .pal-card {
-  background: rgba(26, 22, 20, 0.6);
+  background: rgba(121, 121, 121, 0.6);
   border: 1px solid rgba(212, 175, 55, 0.15);
   padding: 1.25rem 1.4rem;
   border-radius: var(--radius);
@@ -121,7 +121,7 @@
 
 .pal-card h3 {
   font-size: 1.05rem;
-  color: var(--gold);
+  color: var(--ink);
   margin-bottom: 0.9rem;
   letter-spacing: 0.06em;
 }
