@@ -19,6 +19,13 @@
             @keyup.enter="search"
           />
           <button class="btn" @click="search">Search</button>
+          <button
+            class="btn btn-clear"
+            @click="clearResults"
+            :disabled="!selectedPal && !searched"
+          >
+            Clear
+          </button>
         </div>
         <datalist id="pal-list">
           <option v-for="pal in searchablePals" :key="pal" :value="pal" />
@@ -136,13 +143,18 @@ const forwardResults = computed(() => {
 function search() {
   const cleaned = query.value.trim()
   if (!cleaned) {
-    selectedPal.value = ''
-    searched.value = false
+    clearResults()
     return
   }
   const match = searchablePals.find(p => p.toLowerCase() === cleaned.toLowerCase())
   selectedPal.value = match || cleaned
   searched.value = true
+}
+
+function clearResults() {
+  query.value = ''
+  selectedPal.value = ''
+  searched.value = false
 }
 </script>
 
@@ -154,13 +166,20 @@ function search() {
 .search-box { margin-bottom: 2rem; }
 .search-box label { display: block; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mist); margin-bottom: 0.5rem; }
 .input-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-.input-row input { flex: 1; min-width: 220px; padding: 0.7rem 1rem; background: var(--ink-soft); border: 1px solid rgba(212,175,55,0.3); border-radius: var(--radius); color: var(--washi); font-size: 1rem; }
+.input-row input { flex: 1; min-width: 220px; padding: 0.7rem 1rem; border: 1px solid rgba(212,175,55,0.3); border-radius: var(--radius); color: var(--washi); font-size: 1rem; }
 .input-row input:focus { outline: none; border-color: var(--gold); }
 .btn { font-family: var(--font-display); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.7rem 1.4rem; background: transparent; color: var(--gold); border: 1px solid var(--gold); border-radius: var(--radius); cursor: pointer; transition: all 0.25s ease; }
 .btn:hover { background: var(--crimson); border-color: var(--crimson); color: var(--washi); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn:disabled:hover { background: transparent; border-color: var(--gold); color: var(--gold); }
+
+/* Clear button variant */
+.btn-clear { border-color: var(--mist); color: var(--mist); }
+.btn-clear:hover:not(:disabled) { background: rgba(154,42,42,0.3); border-color: var(--crimson); color: var(--washi); }
+
 .results { border-top: 1px solid rgba(212,175,55,0.15); padding-top: 1.75rem; }
 .result-title { font-size: 1.25rem; margin-bottom: 1.25rem; }
-.result-title .highlight { color: var(--gold); }
+.result-title .highlight { color: var(--ink); }
 .warning { background: rgba(154,42,42,0.15); border: 1px solid rgba(154,42,42,0.4); border-radius: var(--radius); padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; color: var(--washi-dim); }
 .block { margin-bottom: 2rem; }
 .block h4 { font-size: 1rem; color: var(--gold); letter-spacing: 0.05em; margin-bottom: 0.9rem; }
@@ -168,7 +187,7 @@ function search() {
 .combo, .step { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.7rem; padding: 0.65rem 1rem; background: rgba(26,22,20,0.55); border: 1px solid rgba(212,175,55,0.12); border-radius: var(--radius); font-size: 0.95rem; }
 .pal { color: var(--washi); }
 .plus, .arrow { color: var(--mist); }
-.result { color: var(--gold); font-weight: 500; }
+.result { color: var(--ink); font-weight: 500; }
 .result.highlight { color: var(--crimson-bright); }
 .chain-card { background: rgba(26,22,20,0.4); border: 1px solid rgba(212,175,55,0.12); border-radius: var(--radius); padding: 1rem 1.2rem; margin-bottom: 1rem; }
 .chain-name { font-family: var(--font-display); font-size: 0.9rem; color: var(--crimson-bright); margin-bottom: 0.75rem; }
