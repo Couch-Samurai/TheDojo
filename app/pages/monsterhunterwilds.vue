@@ -1,5 +1,5 @@
 <template>
-  <MonsterHunterBuilds />
+    <MonsterHunterBuilds />
 </template>
 
 <script setup>

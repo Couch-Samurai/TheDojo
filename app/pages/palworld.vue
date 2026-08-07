@@ -1,12 +1,5 @@
 <template>
   <div class="palworld-page">
-    <!-- Jump to bottom control -->
-    <div class="jump-bar">
-      <button class="jump-btn" @click="scrollToBottom">
-        ↓ Jump to Bottom
-      </button>
-    </div>
-
     <div class="page">
       <header class="page-header">
         <h1>Palworld Guide</h1>
@@ -30,13 +23,6 @@
       <PalworldBreedingTips />
       <BreedingCalculator />
 
-      <!-- Bottom anchor -->
-      <div id="bottom" class="bottom-anchor">
-        <p>End of guide</p>
-        <button class="jump-btn small" @click="scrollToTop">
-          ↑ Back to Top
-        </button>
-      </div>
     </div>
   </div>
 </template>

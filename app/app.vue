@@ -8,12 +8,14 @@
 <template>
   <div>
     <NuxtLayout>
-      <Navigation />
+      <AppHeader />
+      <!-- <Navigation /> -->
         <!-- <img
           src="~/assets/img/nuxt.jfif"
           alt="Discover Nuxt"
         > -->
-      <NuxtPage />
+        <NuxtPage />
+        <AppFooter />
     </NuxtLayout>
   </div>
   <!-- https://nuxt.com/docs/4.x/directory-structure/nuxt -->
