@@ -3,43 +3,93 @@
     <h2>Best For Base</h2>
     <div class="card">
       <p class="intro">
-        Work suitability levels go up to 8–10 in the current version. Here are strong options across stages of the game.
+        S-Tier base workers by work type (Palworld 1.0). Best and second-best options included.
       </p>
 
       <div class="grid">
         <div class="pal-card">
-          <h3>Early Game</h3>
+          <h3>🥶 Cooling</h3>
           <ul>
-            <li><strong>Lifmunk / Flopie</strong> — Multi-skill generalists, easy to catch.</li>
-            <li><strong>Pupperai</strong> — Great early Transporting, Lumbering & Gathering.</li>
-            <li><strong>Penking</strong> — Excellent all-rounder for mid-early bases.</li>
+            <li><strong>Bastigor</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Wumpo</strong> — 🥈 2nd best</li>
           </ul>
         </div>
 
         <div class="pal-card">
-          <h3>Mid → Late</h3>
+          <h3>🌾 Gathering</h3>
           <ul>
-            <li><strong>Anubis</strong> — Still one of the best Handiwork + Mining workers.</li>
-            <li><strong>Lyleen</strong> — Outstanding multi-work (Planting, Handiwork, Medicine, Gathering).</li>
-            <li><strong>Blazamut / Vanwyrm</strong> — Top Kindling options.</li>
+            <li><strong>Venusa</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Verdash</strong> — 🥈 2nd best</li>
           </ul>
         </div>
 
         <div class="pal-card">
-          <h3>Endgame (World Tree / 1.0)</h3>
+          <h3>⚡ Electricity</h3>
           <ul>
-            <li><strong>Dandilord</strong> — Planting Level 8 + strong secondary skills.</li>
-            <li><strong>Solenne</strong> — Handiwork Level 8, works without sleep.</li>
-            <li><strong>Bastigor</strong> — Highest Cooling.</li>
-            <li><strong>Oserk / Orserk</strong> — Excellent Electricity generation.</li>
-            <li><strong>Shaolong</strong> — Top Watering.</li>
-            <li><strong>Silvance</strong> — Outstanding Medicine Production.</li>
+            <li><strong>Orserk</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Grizzbolt</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>👐 Handiwork</h3>
+          <ul>
+            <li><strong>Solenne</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Sekhmet</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🔥 Kindling</h3>
+          <ul>
+            <li><strong>Dupin</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Renjish / Flaracle</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🪵 Lumbering</h3>
+          <ul>
+            <li><strong>Celesdir</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Cryolinx Terra</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>⛏️ Mining</h3>
+          <ul>
+            <li><strong>Knocklem Ignis</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Anubis</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>💊 Medicine</h3>
+          <ul>
+            <li><strong>Silvance</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Lyleen Noct</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🌱 Planting</h3>
+          <ul>
+            <li><strong>Dandilord</strong> — ⭐ Best (World Tree)</li>
+            <li><strong>Ophydia</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>📦 Transporting</h3>
+          <ul>
+            <li><strong>Mimog</strong> — ⭐ Best</li>
+            <li><strong>Eidrolon</strong> — 🥈 2nd best</li>
           </ul>
         </div>
       </div>
 
       <p class="note">
-        Tip: Condensing and handbooks can push many of these even higher. Pair specialists with strong transporters like Mimog for maximum efficiency.
+        Anubis remains one of the strongest overall base pals thanks to Handiwork + Mining. Condensing and good passives (Artisan / Work Slave / Remarkable Craftsmanship) push these even further.
       </p>
     </div>
   </section>

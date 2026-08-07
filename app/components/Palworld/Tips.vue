@@ -4,28 +4,28 @@
     <div class="card">
       <ul class="tip-list">
         <li>
-          <strong>Build a Palbox early</strong> — It unlocks proper base management and lets you house hundreds of Pals.
+          <strong>Start breeding Anubis early</strong> — It is the single best base worker (Handiwork + Mining) and becomes available much earlier than its level suggests.
         </li>
         <li>
-          <strong>Prioritize spheres</strong> — Craft or farm higher-tier Pal Spheres as soon as possible. Vixy on a ranch is excellent for early sphere generation.
+          <strong>Keep cake stocked</strong> — One cake is consumed per egg. Always keep cake in the Breeding Farm chest so production never stops.
         </li>
         <li>
-          <strong>Use the Grappling Gun</strong> — Unlocks around level 12 and ignores weight when over-encumbered. Perfect for mobility.
+          <strong>Prioritize passives</strong> — Aim for Artisan / Work Slave / Remarkable Craftsmanship on base pals and Demon God / Musclehead / Serenity on combat pals.
         </li>
         <li>
-          <strong>Match skill types</strong> — Pals deal ~20% more damage when using skills that match their element.
+          <strong>Self-breed legendaries & key pals</strong> — Orserk, Shadowbeak, Grizzbolt, Lyleen and many S-Tier pals can only be bred with the same species.
         </li>
         <li>
-          <strong>Condense regularly</strong> — Sacrificing duplicates improves work suitability, stats, and passive strength.
+          <strong>Condense regularly</strong> — Sacrificing duplicates raises work suitability levels and strengthens passive skills.
         </li>
         <li>
-          <strong>Run Expeditions</strong> — Assign spare Pals to expeditions for passive rare materials while you explore.
+          <strong>Use the right party for the job</strong> — Keep specialized parties (Egg, Fishing, Combat) ready instead of using one general team for everything.
         </li>
         <li>
-          <strong>Research everything</strong> — Permanent bonuses to work speed, gathering, and more apply to all current and future Pals.
+          <strong>Research & Expeditions</strong> — Permanent research bonuses and passive expedition rewards are huge long-term multipliers.
         </li>
         <li>
-          <strong>Push Towers</strong> — Especially after level 50, towers become one of the best sources of experience and progression.
+          <strong>Avoid negative passives</strong> — Clumsy, Slacker, Coward, Pacifist, Brittle, Glutton and Night Owl should be bred out whenever possible.
         </li>
       </ul>
     </div>

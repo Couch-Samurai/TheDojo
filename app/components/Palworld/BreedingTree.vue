@@ -3,53 +3,110 @@
     <h2>Breeding Tree</h2>
     <div class="card">
       <p class="intro">
-        Breeding uses a hidden Breeding Power Value (BPV). The child is determined by averaging the parents’ BPV and finding the closest matching species. Some combinations are fixed exceptions.
+        Essential S-Tier breeding paths and priority targets (Palworld 1.0).
       </p>
 
       <div class="tree">
-        <h3>Useful Early → Mid Chains</h3>
-        <div class="chain">
-          <div class="step">
-            <span class="pal">Relaxaurus</span>
-            <span class="plus">+</span>
-            <span class="pal">Sparkit</span>
-            <span class="arrow">→</span>
-            <span class="result">Relaxaurus Lux</span>
-          </div>
-          <div class="step">
-            <span class="pal">Relaxaurus Lux</span>
-            <span class="plus">+</span>
-            <span class="pal">Blazamut</span>
-            <span class="arrow">→</span>
-            <span class="result">Jormuntide</span>
-          </div>
-          <div class="step">
-            <span class="pal">Jormuntide</span>
-            <span class="plus">+</span>
-            <span class="pal">Blazehowl</span>
-            <span class="arrow">→</span>
-            <span class="result">Jormuntide Ignis</span>
-          </div>
-          <div class="step">
-            <span class="pal">Relaxaurus Lux</span>
-            <span class="plus">+</span>
-            <span class="pal">Jormuntide Ignis</span>
-            <span class="arrow">→</span>
-            <span class="result highlight">Anubis</span>
+        <h3>🌟 Priority S-Tier Targets</h3>
+        <ul class="notable">
+          <li><strong>Anubis</strong> — Best overall base worker (Handiwork + Mining)</li>
+          <li><strong>Jormuntide</strong> — Top Watering / strong combat</li>
+          <li><strong>Orserk</strong> — Best Electricity (self-breed only)</li>
+          <li><strong>Faleris</strong> — Excellent flying mount + Kindling</li>
+          <li><strong>Shadowbeak</strong> — Best Dark PvE (self-breed after first)</li>
+        </ul>
+
+        <h3>🔑 Essential Breeding Chains</h3>
+
+        <div class="chain-block">
+          <h4>Path to Anubis (Base King)</h4>
+          <div class="chain">
+            <div class="step">
+              <span class="pal">Relaxaurus</span>
+              <span class="plus">+</span>
+              <span class="pal">Sparkit</span>
+              <span class="arrow">→</span>
+              <span class="result">Relaxaurus Lux</span>
+            </div>
+            <div class="step">
+              <span class="pal">Relaxaurus Lux</span>
+              <span class="plus">+</span>
+              <span class="pal">Blazamut</span>
+              <span class="arrow">→</span>
+              <span class="result">Jormuntide</span>
+            </div>
+            <div class="step">
+              <span class="pal">Jormuntide</span>
+              <span class="plus">+</span>
+              <span class="pal">Blazehowl</span>
+              <span class="arrow">→</span>
+              <span class="result">Jormuntide Ignis</span>
+            </div>
+            <div class="step">
+              <span class="pal">Relaxaurus Lux</span>
+              <span class="plus">+</span>
+              <span class="pal">Jormuntide Ignis</span>
+              <span class="arrow">→</span>
+              <span class="result highlight">Anubis</span>
+            </div>
           </div>
         </div>
 
-        <h3>Other Notable Routes</h3>
+        <div class="chain-block">
+          <h4>Other Useful Combos</h4>
+          <div class="chain">
+            <div class="step">
+              <span class="pal">Anubis</span>
+              <span class="plus">+</span>
+              <span class="pal">Vanwyrm</span>
+              <span class="arrow">→</span>
+              <span class="result">Faleris</span>
+            </div>
+            <div class="step">
+              <span class="pal">Ragnahawk</span>
+              <span class="plus">+</span>
+              <span class="pal">Killamari</span>
+              <span class="arrow">→</span>
+              <span class="result">Kitsun</span>
+            </div>
+            <div class="step">
+              <span class="pal">Kitsun</span>
+              <span class="plus">+</span>
+              <span class="pal">Astegon</span>
+              <span class="arrow">→</span>
+              <span class="result highlight">Shadowbeak</span>
+            </div>
+            <div class="step">
+              <span class="pal">Mossanda</span>
+              <span class="plus">+</span>
+              <span class="pal">Rayhound</span>
+              <span class="arrow">→</span>
+              <span class="result">Grizzbolt</span>
+            </div>
+          </div>
+        </div>
+
+        <h3>🔁 Self-Breed Only</h3>
         <ul class="notable">
-          <li><strong>Anubis</strong> — Also reachable via Vanwyrm + Cinnamoth and several other pairs.</li>
-          <li><strong>Mossanda Lux</strong> — Mossanda + Grizzbolt (fixed fusion-style pair).</li>
-          <li><strong>Legendaries</strong> (Jetragon, Frostallion, Paladius, Necromus) — Same-species only after catching the original.</li>
-          <li><strong>Frostallion Noct</strong> — Typically Helzephyr + Frostallion path.</li>
+          <li><strong>Orserk</strong> — Orserk + Orserk</li>
+          <li><strong>Grizzbolt</strong> — Grizzbolt + Grizzbolt</li>
+          <li><strong>Lyleen</strong> — Lyleen + Lyleen</li>
+          <li><strong>Faleris</strong> — Faleris + Faleris (after first)</li>
+          <li><strong>Shadowbeak</strong> — Shadowbeak + Shadowbeak (after first)</li>
+          <li><strong>Legendaries</strong> (Jetragon, Frostallion, Paladius, Necromus) — same species only</li>
+        </ul>
+
+        <h3>🔍 Extra Anubis Combos</h3>
+        <ul class="notable">
+          <li>Bushi + Penking</li>
+          <li>Ragnahawk + Tombat</li>
+          <li>Quivern + Chillet</li>
+          <li>Relaxaurus Lux + Jormuntide Ignis (main chain)</li>
         </ul>
       </div>
 
       <p class="note">
-        Use a breeding calculator for exact multi-generation paths from the Pals you currently own. The reverse-lookup approach is far more efficient than memorizing every combo.
+        Use a breeding calculator for reverse lookups from the Pals you already own. The chains above are the most efficient common routes.
       </p>
     </div>
   </section>
@@ -72,14 +129,24 @@
   letter-spacing: 0.05em;
 }
 
-.tree h3:first-child {
+.tree h3:first-of-type {
   margin-top: 0;
+}
+
+.tree h4 {
+  font-size: 0.95rem;
+  color: var(--crimson-bright);
+  margin: 1.25rem 0 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.chain-block {
+  margin-bottom: 1.5rem;
 }
 
 .chain {
   display: grid;
-  gap: 0.85rem;
-  margin-bottom: 0.5rem;
+  gap: 0.75rem;
 }
 
 .step {
@@ -117,7 +184,7 @@
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 0.7rem;
+  gap: 0.65rem;
 }
 
 .notable li {

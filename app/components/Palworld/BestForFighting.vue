@@ -3,43 +3,93 @@
     <h2>Best for Fighting</h2>
     <div class="card">
       <p class="intro">
-        Endgame combat revolves around high base Attack, strong Partner Skills, and good elemental coverage. Here is a practical tier overview.
+        S-Tier PvE / combat pals by element (Palworld 1.0). Best and second-best options listed.
       </p>
 
-      <div class="tiers">
-        <div class="tier s-plus">
-          <h3>S+ Tier</h3>
+      <div class="grid">
+        <div class="pal-card">
+          <h3>🔥 Fire</h3>
           <ul>
-            <li><strong>Necromus</strong> — Exceptional Attack, double-jump dodge, shreds Neutral.</li>
-            <li><strong>Frostallion / Frostallion Noct</strong> — Premier Ice / Dark options. Ice Steed is excellent.</li>
-            <li><strong>Jetragon</strong> — Fastest flyer + high damage + Meteorain AOE.</li>
-            <li><strong>Shadowbeak</strong> — High stats, strong crowd control, relatively accessible.</li>
+            <li><strong>Blazamut</strong> — ⭐ Best</li>
+            <li><strong>Dupin</strong> — 🥈 2nd best</li>
           </ul>
         </div>
 
-        <div class="tier s">
-          <h3>S Tier</h3>
+        <div class="pal-card">
+          <h3>💧 Water</h3>
           <ul>
-            <li><strong>Bellanoir Libero</strong> — Powerful exclusive skill kit.</li>
-            <li><strong>Neptilius</strong> — High Attack Water option.</li>
-            <li><strong>Blazamut / Blazamut Ryu</strong> — Elite Fire damage + solid defense.</li>
-            <li><strong>Anubis</strong> — Excellent melee bruiser that also works amazingly at base.</li>
+            <li><strong>Jormuntide</strong> — ⭐ Best</li>
+            <li><strong>Neptilius</strong> — 🥈 2nd best</li>
           </ul>
         </div>
 
-        <div class="tier a">
-          <h3>Strong Contenders</h3>
+        <div class="pal-card">
+          <h3>🌿 Grass</h3>
           <ul>
-            <li><strong>Orserk</strong> — Great Electric coverage + base utility.</li>
-            <li><strong>Grizzbolt</strong> — Minigun partner skill for sustained ranged damage.</li>
-            <li><strong>Astegon</strong> — Strong Dark/Dragon dual coverage.</li>
-            <li><strong>Lyleen Noct</strong> — Heals while dealing respectable damage.</li>
+            <li><strong>Venusa</strong> — ⭐ Best</li>
+            <li><strong>Dandilord</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>⚡ Electric</h3>
+          <ul>
+            <li><strong>Orserk</strong> — ⭐ Best</li>
+            <li><strong>Grizzbolt</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>❄️ Ice</h3>
+          <ul>
+            <li><strong>Bastigor</strong> — ⭐ Best</li>
+            <li><strong>Frostallion</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🌍 Ground</h3>
+          <ul>
+            <li><strong>Anubis</strong> — ⭐ Best</li>
+            <li><strong>Sekhmet</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>💀 Dark</h3>
+          <ul>
+            <li><strong>Shadowbeak</strong> — ⭐ Best</li>
+            <li><strong>Necromus</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🐉 Dragon</h3>
+          <ul>
+            <li><strong>Jetragon</strong> — ⭐ Best</li>
+            <li><strong>Xenolord</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>🪨 Rock</h3>
+          <ul>
+            <li><strong>Knocklem Ignis</strong> — ⭐ Best</li>
+            <li><strong>Astegon</strong> — 🥈 2nd best</li>
+          </ul>
+        </div>
+
+        <div class="pal-card">
+          <h3>✨ Neutral</h3>
+          <ul>
+            <li><strong>Paladius</strong> — ⭐ Best</li>
+            <li><strong>Solenne</strong> — 🥈 2nd best</li>
           </ul>
         </div>
       </div>
 
       <p class="note">
-        Recommended core party idea: Jetragon (flying nuke) + Frostallion (anti-Dragon) + Necromus (Dark bruiser) + one strong Fire option + a stunner.
+        Strong core party idea: Jetragon (Dragon nuke / flyer) + Bastigor or Frostallion (Ice) + Shadowbeak or Necromus (Dark) + Blazamut (Fire) + Anubis (Ground bruiser / utility).
       </p>
     </div>
   </section>
@@ -55,45 +105,42 @@
   margin-bottom: 1.75rem;
 }
 
-.tiers {
+.grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.4rem;
   margin-bottom: 1.75rem;
 }
 
-.tier {
-  padding: 1.25rem 1.5rem;
-  border-radius: var(--radius);
-  border: 1px solid rgba(212, 175, 55, 0.18);
+.pal-card {
   background: rgba(26, 22, 20, 0.55);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  padding: 1.2rem 1.35rem;
+  border-radius: var(--radius);
 }
 
-.tier h3 {
-  font-size: 1rem;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.85rem;
+.pal-card h3 {
+  font-size: 1.05rem;
   color: var(--gold);
+  margin-bottom: 0.85rem;
+  letter-spacing: 0.05em;
 }
 
-.tier.s-plus h3 {
-  color: var(--crimson-bright);
-}
-
-.tier ul {
+.pal-card ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 0.6rem;
+  gap: 0.55rem;
 }
 
-.tier li {
+.pal-card li {
   color: var(--washi-dim);
   font-size: 0.95rem;
 }
 
-.tier strong {
-  color: var(--washi);
+.pal-card strong {
+  color: var(--crimson-bright);
 }
 
 .note {
