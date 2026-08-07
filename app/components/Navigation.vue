@@ -3,10 +3,13 @@
     <nav>
       <ul>
         <li>
-          <NuxtLink to="/about">About</NuxtLink>
+          <NuxtLink to="/palworld">Palworld</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/palworld">Palworld</NuxtLink>
+          <NuxtLink to="/monsterhunterwilds">MH Wilds</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/about">About</NuxtLink>
         </li>
       </ul>
     </nav>
