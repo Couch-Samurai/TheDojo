@@ -8,10 +8,11 @@
 <template>
   <div>
     <NuxtLayout>
-        <img
+      <Navigation />
+        <!-- <img
           src="~/assets/img/nuxt.jfif"
           alt="Discover Nuxt"
-        >
+        > -->
       <NuxtPage />
     </NuxtLayout>
   </div>
