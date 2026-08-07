@@ -2,7 +2,7 @@
   <footer class="app-footer">
     <div class="footer-inner">
       <p class="footer-text">
-        巻 · Palworld Guide
+        巻 · Yes this is here ->
       </p>
 
       <button class="jump-btn" @click="scrollToTop" title="Jump to top">
