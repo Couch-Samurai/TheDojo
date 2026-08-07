@@ -7,16 +7,16 @@
 
 <template>
   <div>
+    <AppHeader />
     <NuxtLayout>
-      <AppHeader />
       <!-- <Navigation /> -->
         <!-- <img
           src="~/assets/img/nuxt.jfif"
           alt="Discover Nuxt"
         > -->
         <NuxtPage />
-        <AppFooter />
-    </NuxtLayout>
+      </NuxtLayout>
+      <AppFooter />
   </div>
   <!-- https://nuxt.com/docs/4.x/directory-structure/nuxt -->
 </template>
