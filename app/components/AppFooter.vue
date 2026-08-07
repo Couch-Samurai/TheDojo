@@ -26,7 +26,6 @@ const scrollToTop = () => {
   margin-top: 4rem;
   padding: 2rem 1.5rem 2.5rem;
   border-top: 1px solid rgba(44, 36, 22, 0.12);
-  background: rgba(232, 217, 192, 0.45);
 }
 
 .footer-inner {

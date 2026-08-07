@@ -1,21 +1,47 @@
-<!-- <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-    <AppAlert>
-      This is an auto-imported component
-    </AppAlert>
-  </div>
-</template> -->
-
 <template>
-
+  <section id="tips" class="section">
+    <h1>Welcome...</h1>
+    <div class="card">
+      <ul class="tip-list">
+        <li>
+          <strong>What do we add here?</strong>
+        </li>
+      </ul>
+    </div>
+  </section>
 </template>
 
+<style scoped>
+  .section {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
 
-<script>
-// Use a static import for server-side compatibility
-import '~/assets/css/main.css'
+  .tip-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.1rem;
+  }
 
-// Caution: Dynamic imports are not server-side compatible
-// import('~/assets/css/first.css')
-</script>
+  .tip-list li {
+    position: relative;
+    padding-left: 1.6rem;
+    color: var(--washi-dim);
+    line-height: 1.65;
+  }
+
+  .tip-list li::before {
+    position: absolute;
+    left: 0;
+    color: var(--crimson);
+    font-size: 0.9rem;
+  }
+
+  .tip-list strong {
+    color: var(--gold);
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+</style>

@@ -47,68 +47,68 @@
 </template>
 
 <style scoped>
-.section {
-  margin-bottom: 4rem;
-}
+  .section {
+    margin-bottom: 4rem;
+  }
 
-.tip-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 1.25rem;
-}
+  .tip-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.25rem;
+  }
 
-.tip-list > li {
-  position: relative;
-  padding-left: 1.6rem;
-  color: var(--washi-dim);
-  line-height: 1.65;
-}
+  .tip-list > li {
+    position: relative;
+    padding-left: 1.6rem;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
 
-.tip-list > li::before {
-  content: '⚔';
-  position: absolute;
-  left: 0;
-  color: var(--crimson);
-  font-size: 0.9rem;
-}
+  .tip-list > li::before {
+    content: '⚔';
+    position: absolute;
+    left: 0;
+    color: var(--crimson);
+    font-size: 0.9rem;
+  }
 
-.tip-list strong {
-  color: var(--gold);
-  font-family: var(--font-display);
-  letter-spacing: 0.03em;
-}
+  .tip-list strong {
+    color: var(--gold);
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
 
-.tip-list ol {
-  margin: 0.6rem 0 0;
-  padding-left: 1.3rem;
-  color: var(--mist);
-}
+  .tip-list ol {
+    margin: 0.6rem 0 0;
+    padding-left: 1.3rem;
+    color: var(--ink-faint);
+  }
 
-.tip-list ol li {
-  margin-bottom: 0.3rem;
-}
+  .tip-list ol li {
+    margin-bottom: 0.3rem;
+  }
 
-.sub {
-  list-style: none;
-  padding: 0.5rem 0 0 0.5rem;
-  margin: 0;
-  display: grid;
-  gap: 0.35rem;
-}
+  .sub {
+    list-style: none;
+    padding: 0.5rem 0 0 0.5rem;
+    margin: 0;
+    display: grid;
+    gap: 0.35rem;
+  }
 
-.sub li {
-  color: var(--mist);
-  font-size: 0.92rem;
-  position: relative;
-  padding-left: 1rem;
-}
+  .sub li {
+    color: var(--ink-faint);
+    font-size: 0.92rem;
+    position: relative;
+    padding-left: 1rem;
+  }
 
-.sub li::before {
-  content: '–';
-  position: absolute;
-  left: 0;
-  color: var(--crimson);
-}
+  .sub li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--crimson);
+  }
 </style>

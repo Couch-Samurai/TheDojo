@@ -159,39 +159,176 @@ function clearResults() {
 </script>
 
 <style scoped>
-/* (styles match the samurai theme – same as previous components) */
-.section { margin-bottom: 4rem; }
-.intro { color: var(--washi-dim); margin-bottom: 1.75rem; line-height: 1.6; }
-.intro code { background: rgba(212,175,55,0.12); padding: 0.15rem 0.4rem; border-radius: 3px; color: var(--gold); }
-.search-box { margin-bottom: 2rem; }
-.search-box label { display: block; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mist); margin-bottom: 0.5rem; }
-.input-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-.input-row input { flex: 1; min-width: 220px; padding: 0.7rem 1rem; border: 1px solid rgba(212,175,55,0.3); border-radius: var(--radius); color: var(--washi); font-size: 1rem; }
-.input-row input:focus { outline: none; border-color: var(--gold); }
-.btn { font-family: var(--font-display); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.7rem 1.4rem; background: transparent; color: var(--gold); border: 1px solid var(--gold); border-radius: var(--radius); cursor: pointer; transition: all 0.25s ease; }
-.btn:hover { background: var(--crimson); border-color: var(--crimson); color: var(--washi); }
-.btn:disabled { opacity: 0.4; cursor: not-allowed; }
-.btn:disabled:hover { background: transparent; border-color: var(--gold); color: var(--gold); }
+  .section {
+    margin-bottom: 4rem;
+  }
 
-/* Clear button variant */
-.btn-clear { border-color: var(--mist); color: var(--mist); }
-.btn-clear:hover:not(:disabled) { background: rgba(154,42,42,0.3); border-color: var(--crimson); color: var(--washi); }
+  .intro {
+    color: var(--ink-soft);
+    margin-bottom: 1.75rem;
+    line-height: 1.6;
+  }
 
-.results { border-top: 1px solid rgba(212,175,55,0.15); padding-top: 1.75rem; }
-.result-title { font-size: 1.25rem; margin-bottom: 1.25rem; }
-.result-title .highlight { color: var(--ink); }
-.warning { background: rgba(154,42,42,0.15); border: 1px solid rgba(154,42,42,0.4); border-radius: var(--radius); padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; color: var(--washi-dim); }
-.block { margin-bottom: 2rem; }
-.block h4 { font-size: 1rem; color: var(--gold); letter-spacing: 0.05em; margin-bottom: 0.9rem; }
-.combo-list { display: grid; gap: 0.65rem; }
-.combo, .step { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.7rem; padding: 0.65rem 1rem; background: rgba(26,22,20,0.55); border: 1px solid rgba(212,175,55,0.12); border-radius: var(--radius); font-size: 0.95rem; }
-.pal { color: var(--washi); }
-.plus, .arrow { color: var(--mist); }
-.result { color: var(--ink); font-weight: 500; }
-.result.highlight { color: var(--crimson-bright); }
-.chain-card { background: rgba(26,22,20,0.4); border: 1px solid rgba(212,175,55,0.12); border-radius: var(--radius); padding: 1rem 1.2rem; margin-bottom: 1rem; }
-.chain-name { font-family: var(--font-display); font-size: 0.9rem; color: var(--crimson-bright); margin-bottom: 0.75rem; }
-.steps { display: grid; gap: 0.55rem; }
-.empty, .empty-state { color: var(--mist); font-size: 0.95rem; font-style: italic; }
-.empty-state { text-align: center; padding: 2rem 1rem; }
+  .intro code {
+    background: rgba(167, 139, 45, 0.15);
+    padding: 0.15rem 0.4rem;
+    border-radius: 2px;
+    color: var(--gold);
+  }
+
+  .search-box {
+    margin-bottom: 2rem;
+  }
+
+  .search-box label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 0.5rem;
+  }
+
+  .input-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .input-row input {
+    flex: 1;
+    min-width: 220px;
+    padding: 0.7rem 1rem;
+    background: var(--wood);
+    border: 1px solid rgba(234, 228, 217, 0.12);
+    border-radius: var(--radius);
+    color: var(--ink);
+    font-size: 1rem;
+    font-family: var(--font-body);
+  }
+
+  .input-row input:focus {
+    outline: none;
+    border-color: var(--crimson);
+  }
+
+  /* Only the clear variant – base .btn comes from main.css */
+  .btn-clear {
+    border-color: var(--ink-faint);
+    color: var(--ink-faint);
+  }
+
+  .btn-clear:hover:not(:disabled) {
+    background: rgba(185, 28, 28, 0.2);
+    border-color: var(--crimson);
+    color: var(--ink);
+  }
+
+  .btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .results {
+    border-top: 1px solid rgba(234, 228, 217, 0.08);
+    padding-top: 1.75rem;
+  }
+
+  .result-title {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .result-title .highlight {
+    color: var(--ink);
+  }
+
+  .warning {
+    background: rgba(185, 28, 28, 0.12);
+    border: 1px solid rgba(185, 28, 28, 0.35);
+    border-radius: var(--radius);
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--ink-soft);
+  }
+
+  .block {
+    margin-bottom: 2rem;
+  }
+
+  .block h4 {
+    font-size: 1rem;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.9rem;
+  }
+
+  .combo-list {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .combo,
+  .step {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem 0.7rem;
+    padding: 0.65rem 1rem;
+    background: var(--wood);
+    border: 1px solid rgba(234, 228, 217, 0.08);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+  }
+
+  .pal {
+    color: var(--ink);
+  }
+
+  .plus,
+  .arrow {
+    color: var(--ink-faint);
+  }
+
+  .result {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  .result.highlight {
+    color: var(--crimson);
+  }
+
+  .chain-card {
+    background: var(--wood);
+    border: 1px solid rgba(234, 228, 217, 0.08);
+    border-radius: var(--radius);
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .chain-name {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--crimson);
+    margin-bottom: 0.75rem;
+  }
+
+  .steps {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .empty,
+  .empty-state {
+    color: var(--ink-faint);
+    font-size: 0.95rem;
+    font-style: italic;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
 </style>

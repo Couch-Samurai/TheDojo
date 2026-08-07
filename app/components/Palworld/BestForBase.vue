@@ -96,59 +96,65 @@
 </template>
 
 <style scoped>
-.section {
-  margin-bottom: 4rem;
-}
+  .section {
+    margin-bottom: 4rem;
+  }
 
-.intro {
-  color: var(--washi-dim);
-  margin-bottom: 1.75rem;
-}
+  .intro {
+    color: var(--ink-soft);
+    margin-bottom: 1.75rem;
+  }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 1.75rem;
-}
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
 
-.pal-card {
-  background: rgba(121, 121, 121, 0.6);
-  border: 1px solid rgba(212, 175, 55, 0.15);
-  padding: 1.25rem 1.4rem;
-  border-radius: var(--radius);
-}
+  /* Specialized card – builds on .card from main.css */
+  .pal-card {
+    background: var(--wood);
+    border: 1px solid rgba(234, 228, 217, 0.08);
+    padding: 1.25rem 1.4rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  }
 
-.pal-card h3 {
-  font-size: 1.05rem;
-  color: var(--ink);
-  margin-bottom: 0.9rem;
-  letter-spacing: 0.06em;
-}
+  .pal-card:hover {
+    border-color: rgba(185, 28, 28, 0.35);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  }
 
-.pal-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 0.65rem;
-}
+  .pal-card h3 {
+    font-size: 1.05rem;
+    color: var(--ink);          /* override global gold */
+    margin-bottom: 0.9rem;
+  }
 
-.pal-card li {
-  color: var(--washi-dim);
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
+  .pal-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.65rem;
+  }
 
-.pal-card strong {
-  color: var(--crimson-bright);
-}
+  .pal-card li {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 
-.note {
-  font-size: 0.92rem;
-  color: var(--mist);
-  border-left: 2px solid var(--crimson);
-  padding-left: 1rem;
-  margin: 0;
-}
+  .pal-card strong {
+    color: var(--crimson);
+  }
+
+  .note {
+    font-size: 0.92rem;
+    color: var(--ink-faint);
+    border-left: 2px solid var(--crimson);
+    padding-left: 1rem;
+    margin: 0;
+  }
 </style>

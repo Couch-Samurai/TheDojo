@@ -3,7 +3,6 @@
     <div class="page">
       <header class="page-header">
         <h1>Palworld Guide</h1>
-        <p class="subtitle">Tips • Base • Combat • Breeding</p>
       </header>
 
       <!-- Navigation between sections -->

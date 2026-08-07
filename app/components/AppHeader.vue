@@ -52,7 +52,6 @@ const scrollToBottom = () => {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(243, 233, 215, 0.95);
   border-bottom: 1px solid rgba(44, 36, 22, 0.12);
   backdrop-filter: blur(8px);
 }
