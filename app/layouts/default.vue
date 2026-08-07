@@ -1,7 +1,5 @@
 <template>
   <div>
-    <AppHeader />
-    <slot />
-    <AppFooter />
+    <slot />   <!-- or <NuxtPage /> depending on Nuxt version -->
   </div>
 </template>
