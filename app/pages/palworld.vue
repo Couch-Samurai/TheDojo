@@ -28,6 +28,7 @@
       <PalworldBestForFighting />
       <PalworldBreedingTree />
       <PalworldBreedingTips />
+      <BreedingCalculator />
 
       <!-- Bottom anchor -->
       <div id="bottom" class="bottom-anchor">
@@ -41,6 +42,8 @@
 </template>
 
 <script setup>
+import BreedingCalculator from '~/components/Palworld/BreedingCalculator.vue'
+
 const scrollToBottom = () => {
   const el = document.getElementById('bottom')
   if (el) {
