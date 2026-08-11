@@ -7,9 +7,9 @@
 
       <!-- Navigation between sections -->
       <nav class="section-nav">
-        <a href="#tips">Tips</a>
-        <a href="#">Skills for swordsman</a>
-        <a href="#">Skills for wolf</a>
+        <a href="#tips">Tips </a>
+        <a href="#skills-swordsman">Skills for swordsman </a>
+        <a href="#skills-wolf">Skills for wolf </a>
       </nav>
 
       <!-- Sections -->
@@ -18,7 +18,16 @@
             <p>Here are some tips for playing Beast of Reincarnation...</p>
         </section>
 
-        <beastofreincarnation-builds />
+        <section id="skills-swordsman">
+            <h2>Skills for Swordsman</h2>
+            <p>Details about skills for the Swordsman class...</p>
+            <beastofreincarnation-builds />
+        </section>
+
+        <section id="skills-wolf">
+            <h2>Skills for Wolf</h2>
+            <p>Details about skills for the Wolf class...</p>
+        </section>
 
     </div>
   </div>
