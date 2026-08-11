@@ -27,6 +27,7 @@
           <li><NuxtLink to="/"><div class="seal">巻</div> Home</NuxtLink></li>
           <li><NuxtLink to="/palworld"><div class="seal">巻</div> Palworld</NuxtLink></li>
           <li><NuxtLink to="/monsterhunterwilds"><div class="seal">巻</div> MH Wilds</NuxtLink></li>
+          <li><NuxtLink to="/beastofreincarnation"><div class="seal">巻</div> Beast of Reincarnation</NuxtLink></li>
           <li><NuxtLink to="/about"><div class="seal">巻</div> About</NuxtLink></li>
         </ul>
       </nav>
