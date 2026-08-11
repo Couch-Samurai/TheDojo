@@ -21,7 +21,7 @@
         <section id="skills-swordsman">
             <h2>Skills for Swordsman</h2>
             <p>Details about skills for the Swordsman class...</p>
-            <beastofreincarnation-builds />
+            <beastofreincarnationbuilds />
         </section>
 
         <section id="skills-wolf">
@@ -32,3 +32,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+  import beastofreincarnationbuilds from '~/components/BeastofReincarnation/beastofreincarnationbuilds.vue'
+</script>
