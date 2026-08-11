@@ -21,14 +21,15 @@
         <section id="skills-swordsman">
             <h2>Skills for Swordsman</h2>
             <p>Details about skills for the Swordsman class...</p>
-            <beastofreincarnationbuilds />
         </section>
-
+        
         <section id="skills-wolf">
             <h2>Skills for Wolf</h2>
             <p>Details about skills for the Wolf class...</p>
         </section>
-
+        
+        <beastofreincarnationbuilds />
+        
     </div>
   </div>
 </template>

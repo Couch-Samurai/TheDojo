@@ -159,7 +159,7 @@ a:hover {
 
 /* ----- Header / Navigation ----- */
 header {
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 100;
   background: rgba(12, 11, 10, 0.92);
